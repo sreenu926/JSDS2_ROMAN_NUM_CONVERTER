@@ -5,7 +5,7 @@
   --gray-75: #3b3b4f;
   --gray-85: #1b1b32;
   --gray-90: #0a0a23;
-  --blue-50: #198eee;
+  --blue-50: #024276;
   --error: #a94442;
   --danger-color: #850000;
   --danger-background: #ffadad;
@@ -48,6 +48,9 @@ h1 {
   margin: 60px auto;
   max-width: 350px;
   font-family: "arial", cursive;
+  background-color: #f5f6f7;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 form {
@@ -58,7 +61,7 @@ form {
   text-align: center;
   width: 90%;
   max-width: 500px;
-  background-color: #ff00dd;
+  background-color: #0c6907;
   border-radius: 20px;
 }
 
@@ -93,6 +96,7 @@ input {
   background-color: var(--gray-90);
   border: 1px solid var(--gray-05);
   border-radius: 20px;
+  text-align: center;
 }
 
 button {
@@ -131,4 +135,12 @@ button {
 
 .hidden {
   display: none;
+}
+
+#name {
+  margin: 30px;
+  background-color: #feac32;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
 }
